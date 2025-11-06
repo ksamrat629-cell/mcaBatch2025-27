@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <style>
+  body {
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 300px;
+    text-align: left;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"]
+   {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input[type = "submit"]{
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+</style>
+</head>
+<body>
+    <div class="box">
+    <h1>Registration Page</h1>
+    <label for="name">First Name:</label><br><br>
+    <input type="text" name="name" id="name" required placeholder="Enter your First name"><br><br>
+
+    <label for="name">Last Name:</label><br><br>
+    <input type="text" name="name" id="name" required placeholder="enter your Last Name"><br><br>
+
+    <label for="dob">Date of birth</label><br><br>
+    <input type="date" name="dob" id="dob"><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <input type="radio" name="gender" id="gender">Male <br>
+
+    <input type="radio" name="gender" id="gender">Female <br><br>
+
+    <label for="email">Email:</label><br><br>
+    <input type="email" name="email" id="email" placeholder="xyz@gmail.com"><br><br>
+
+    <label for="no.">Phone Number:</label><br><br>
+    <input type="number" name="no." id="no." placeholder="0000000000"><br><br>
+
+    <input type="submit" value="submit">
+    </div>
+
+
+</body>
+</html>

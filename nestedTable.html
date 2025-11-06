@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table</title>
+    <style>
+        table{
+           
+        }
+        th{
+            color: blue;
+            background: #9ff168;
+        }
+        td{
+            color: brown;
+            background: #daea7f;
+        }
+        #rohit td{
+            background-color: #6117e0;
+            color: black;
+        }
+        .tarun td{
+            background-color: rgb(230, 179, 117);
+            color: rgb(6, 231, 231);
+        }
+    </style>
+</head>
+<body>
+    <table border ="1" align="center">
+        <tr>
+        <th>sno</th>
+        <th>name</th>
+        <th>marks</th>
+        <th>fbebe</th>
+        <th>fsvdvsf</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>samrat</td>
+            <td colspan="3" rowspan="3">
+                <table border="1" align="center">
+                    <tr>
+                        <td>qef</td>
+                        <td>gdb</td>
+                        <td>234</td>
+                        <td>324</td>
+                    </tr>
+                    <tr>
+                        <td>3545</td>
+                        <td>456</td>
+                        <td>4881</td>
+                        <td>987</td>
+                    </tr>
+                    <tr>
+                        <td>654646</td>
+                        <td>4356</td>
+                        <td>8463</td>
+                        <td>68454</td>
+                    </tr>
+                    <tr>
+                        <td>6846</td>
+                        <td>5453</td>
+                        <td>4968</td>
+                        <td>54646</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class = "tarun">
+            <td>2</td>
+            <td>tarun</td>
+        </tr>
+        
+        <tr id="rohit">
+            <td>3</td>
+            <td>rohit</td>
+        </tr>
+    </table>
+</body>
+</html>
