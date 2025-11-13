@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Classroom_1
+    </title>
+    <style>
+        /* body {
+            background: linear-gradient(to right, #aef3f3, #d8e6ff);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+           line-height: 1.6;
+        } */
+       
+        h2{
+            text-align: center;
+            color: black;
+
+        }
+        #inp{
+            text-align: center;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+    <h1 style="text-align: center; color: brown; text-decoration: underline;">ABES ENGINEERING COLLEGE</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#Gallery">Gallery</a>
+        <a href="#course">Courses</a>
+        <a href="#Login">Login</a>
+        <a href="#links">Links</a>
+        <a href="#forms">Contact</a>
+        <a href="#faq">FAQ</a>
+        <hr>
+    </nav>
+    </header>
+    <section id ="about">
+    <h2><b>About</b></h2>
+    <p>At ABES Engineering College, we ignite the flames of curiosity, knowledge, and innovation. Established over two decades ago under the esteemed Society for Educational Excellence, 
+        our institution has evolved into a dynamic center of learning nestled in the heart of Ghaziabad. 
+        Our unwavering commitment to excellence has garnered us noteworthy positions in the National Institute Ranking Framework (NIRF), 
+        a testament to our dedication to quality education.
+        Beyond engineering, our academic spectrum encompasses a diverse range of programs, 
+        including M.Tech, MCA, and MBA courses, designed to cater to the multifaceted aspirations of our students. 
+        As we stride forward, our core values of integrity, excellence, and innovation remain at our foundation.
+        ABES Engineering College is not just an institution; it's a journey of transformation, empowerment, and enlightenment. Join us on this extraordinary voyage, 
+        where potential finds its path, and dreams take flight.</p>
+        <hr>
+    </section>
+
+    <section id = "Gallery">
+        <h2><b>Gallery</b></h2>
+        <figure>
+        <img width="300" height="200" src="abes1.jpeg" alt="abes">
+        <figcaption><strong>Abes Overview</strong></figcaption>
+        <img width="300" height="200" src="abes2.jpeg" alt="">
+        <figcaption><strong>Abes Overview</strong></figcaption>
+        <img width="300" height="200" src="abes 3.jpeg" alt="">
+        <figcaption><strong>Abes Overview</strong></figcaption>
+        </figure>
+        <hr>
+        <h2>Audio</h2>
+        <audio src="Maniac-Yo-Yo-Honey-Singh.mp3" controls>Audio</audio>
+        <hr>
+        <h2>Video</h2>
+        <iframe width="200" height="150" src="https://www.youtube.com/embed/fWl8sCHAB1Y?si=gy1fyWOYHcoopuhx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <hr>
+    </section>
+
+    <section id="course">
+        <h2>Courses Offered</h2>
+        <table border="5" style="padding: 2px; height: 50%; width: 50%; border-collapse: collapse; text-align: center;color: blue;">
+           <tr>
+            <th style="background-color: brown;">UnderGraduate</th>
+            <th>PostGraduate</th>
+            <th>Diploma</th>
+            <th>PHD</th>
+            <th>Secondary</th>
+           </tr>
+           <tr>
+             <td>Btech in CSE</td>
+             <td>Mtech in CSE</td>
+             <td>Diploma in CA</td>
+             <td>phd in Science</td>
+             <td>11th science</td>
+           </tr>
+           <tr>
+            <td>Btech in AI/ML</td>
+            <td>MCA</td>
+            <td>Diploma in CS</td>
+            <td>phd in SST</td>
+            <td>11th arts</td>
+           </tr>
+           <tr>
+            <td>Btech in ME</td>
+            <td>Mtech in ME</td>
+            <td>Diploma in ECE</td>
+            <td>phd in history</td>
+            <td>11th commerce</td>
+           </tr>
+           <tr>
+            <td>Btech in ECE</td>
+            <td>Mtech in ECE</td>
+            <td>Diploma in AI/ML</td>
+            <td>phd in geography</td>
+            <td>11th in human Resources</td>
+           </tr>
+        </table>
+        <hr>
+    </section>
+
+    <section id ="Login">
+    <div id="inp">
+        <h2>Login</h2>
+    <label for="#name">Name:</label>
+    <input type="text" name="text" id="text" required><br>
+    <label for="#password">Password</label>
+    <input type="password" name="password" id="password" required><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" value="male" id="male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" name="gender" value="female" id="female">
+    <label for="female">Female</label><br>
+
+    <input type="radio" name="gender" value="other" id="other">
+    <label for="other">Other</label><br>
+
+    <label for="courses">Select a course:</label>
+    <select name="courses" id="courses">
+    <option value="MTECH">MTECH</option>
+    <option value="mca">MCA</option>
+    <option value="btech">B.Tech</option>
+    <option value="mba">MBA</option>
+    </select>
+    <br>
+    <input type="submit" value="Submit">
+    
+    </div>
+    <hr>
+    </section>
+    
+    <section id="links">
+        <h2>Links</h2>
+        <a href="www.youtube.com" target="_blank">Youtube</a>
+        <a href="www.facebook.com" target="_blank">Facebook</a>
+        <a href="www.instagram.com" target="_blank">Instagram</a>
+        <a href="www.x.com" target="_blank">X</a>
+    </section>
+    
+   
+    
+</body>
+</html>
