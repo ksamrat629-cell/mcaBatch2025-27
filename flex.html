@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container_1{
+            display: flex;
+            background-color: rgb(6, 124, 227);
+            margin: 18px;
+            padding: 18px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: end;
+            align-items: start;
+        }
+        .container_1 div{
+            background-color: rgb(85, 255, 33);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+            
+        }
+        h1{
+            background-color: rgb(180, 4, 4);
+        }
+        .container_2{
+            display: flex;
+            background-color: rgb(231, 243, 76);
+            margin: 18px;
+            padding: 18px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: end;
+            align-items: start;
+        }
+        .container_2 div{
+            background-color: rgb(47, 154, 212);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+        }
+        .container_3{
+            display: flex;
+            background-color: rgb(143, 51, 235);
+            margin: 18px;
+            padding: 18px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .container_3 div{
+            background-color: rgb(59, 238, 206);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+        }
+        .container_4{
+            display: flex;
+            background-color: rgb(244, 149, 15);
+            margin: 18px;
+            padding: 18px;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: end;
+            /* align-items: flex-start; *//
+          
+        }
+        .container_4 div{
+            background-color: rgb(24, 93, 31);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+            color: antiquewhite;
+        }
+        .container_5{
+            display: flex;
+            background-color: rgb(248, 75, 75);
+            margin: 18px;
+            padding: 18px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+        .container_5 div{
+            background-color: rgb(224, 25, 184);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+            color: antiquewhite;
+        }
+        .container_6{
+            display: flex;
+            background-color: rgb(92, 48, 48);
+            margin: 18vw;
+            padding: 18vw;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+        .container_6 div{
+            background-color: rgb(155, 95, 143);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+            color: antiquewhite;
+        }
+        .container_7{
+            display: flex;
+            background-color: rgb(75, 55, 94);
+            margin: 18vh;
+            padding: 18vh;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+        .container_7 div{
+            background-color: rgb(247, 174, 232);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+            color: antiquewhite;
+        }
+        .container_8{
+            display: flex;
+            background-color: rgb(109, 174, 224);
+            margin: 18rem;
+            padding: 18rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+        .container_8 div{
+            background-color: rgb(243, 150, 83);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+            color: antiquewhite;
+        }
+        .container_9{
+            display: flex;
+            background-color: rgb(207, 84, 248);
+            margin: 18%;
+            padding: 18%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+        .container_9 div{
+            background-color: rgb(231, 166, 218);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+            color: antiquewhite;
+        }
+        .container_10{
+            display: flex;
+            background-color: rgb(217, 237, 98);
+            margin: 18em;
+            padding: 18em;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            
+        }
+        .container_10 div{
+            background-color: rgb(233, 56, 56);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Container using flex</h1>
+    <div class="container_1">
+        <div>container1</div>
+        <div>container1</div>
+        <div>container1</div>
+        <div>container1</div>
+        <div>container1</div>
+        <div>container1</div>
+        <div>container1</div>
+        <div>container1</div>
+        <div>container1</div>
+        <div>container1</div>
+    </div>
+    <div class="container_2">
+        <div>container2</div>
+        <div>container2</div>
+        <div>container2</div>
+        <div>container2</div>
+        <div>container2</div>
+        <div>container2</div>
+        <div>container2</div>
+        <div>container2</div>
+        <div>container2</div>
+        <div>container2</div>
+    </div>
+    <div class="container_3">
+        <div>container3</div>
+        <div>container3</div>
+        <div>container3</div>
+        <div>container3</div>
+        <div>container3</div>
+        <div>container3</div>
+        <div>container3</div>
+        <div>container3</div>
+        <div>container3</div>
+        <div>container3</div>
+    </div>
+    <div class="container_4">
+        <div>container4</div>
+        <div>container4</div>
+        <div>container4</div>
+        <div>container4</div>
+        <div>container4</div>
+        <div>container4</div>
+        <div>container4</div>
+        <div>container4</div>
+        <div>container4</div>
+        <div>container4</div>
+    </div>
+    <div class="container_5">
+        <div>container5</div>
+        <div>container5</div>
+        <div>container5</div>
+        <div>container5</div>
+        <div>container5</div>
+        <div>container5</div>
+        <div>container5</div>
+        <div>container5</div>
+        <div>container5</div>
+        <div>container5</div>
+    </div>
+     <div class="container_6">
+        <div>container6</div>
+        <div>container6</div>
+        <div>container6</div>
+        <div>container6</div>
+        <div>container6</div>
+        <div>container6</div>
+        <div>container6</div>
+        <div>container6</div>
+        <div>container6</div>
+        <div>container6</div>
+    </div>
+     <div class="container_7">
+        <div>container7</div>
+        <div>container7</div>
+        <div>container7</div>
+        <div>container7</div>
+        <div>container7</div>
+        <div>container7</div>
+        <div>container7</div>
+        <div>container7</div>
+        <div>container7</div>
+        <div>container7</div>
+    </div>
+     <div class="container_8">
+        <div>container8</div>
+        <div>container8</div>
+        <div>container8</div>
+        <div>container8</div>
+        <div>container8</div>
+        <div>container8</div>
+        <div>container8</div>
+        <div>container8</div>
+        <div>container8</div>
+        <div>container8</div>
+    </div>
+     <div class="container_9">
+        <div>container9</div>
+        <div>container9</div>
+        <div>container9</div>
+        <div>container9</div>
+        <div>container9</div>
+        <div>container9</div>
+        <div>container9</div>
+        <div>container9</div>
+        <div>container9</div>
+        <div>container9</div>
+    </div>
+     <div class="container_10">
+        <div>container10</div>
+        <div>container10</div>
+        <div>container10</div>
+        <div>container10</div>
+        <div>container10</div>
+        <div>container10</div>
+        <div>container10</div>
+        <div>container10</div>
+        <div>container10</div>
+        <div>container10</div>
+    </div>
+    
+</body>
+</html>
