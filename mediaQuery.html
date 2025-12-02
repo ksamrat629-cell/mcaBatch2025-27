@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Media Query Example</title>
+    <style>
+    body {
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 50px;
+    }
+
+    h1 {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    }
+
+
+    @media (max-width: 768px) {
+            h1 {
+            color: red;
+            font-size: 30px;
+        }
+    }
+
+
+    @media (max-width: 480px) {
+        h1 {
+            color: green;
+            font-size: 24px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>Media query</h1>
+    <p>This is media query sample</p>
+</body>
+</html>
