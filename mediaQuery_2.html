@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query 2</title>
+    <style>
+        body{
+            background-color: rgb(187, 241, 223);
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            background-color: rgb(6, 124, 227);
+            margin: 18px;
+            padding: 18px;
+            flex-direction: row;
+            align-items: start;
+        }
+        .container div{
+            background-color: rgb(85, 255, 33);
+            margin: 18px;
+            padding: 18px;
+            text-align: center;
+        }
+         @media (max-width: 768px) {
+            body {
+                background-color: rgb(255, 236, 179); /* Light Yellow */
+            }
+            .container {
+                background-color: rgb(255, 193, 7); /* Yellow container */
+                flex-direction: column; /* Stack items */
+                flex-wrap: wrap;
+            }
+            .container div {
+                background-color: rgb(255, 87, 34); /* Orange boxes */
+                width: 100%;
+            }
+        }
+          @media (max-width: 480px) {
+            body {
+                background-color: rgb(255, 182, 193); /* Light Pink */
+            }
+            .container {
+                background-color: rgb(233, 30, 99); /* Pink container */
+            }
+            .container div {
+                background-color: rgb(156, 39, 176); /* Purple boxes */
+                width: 100%;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 align ="center">Media Query Sample @</h1>
+    <div>Media 1</div>
+    <div>Media 2</div>
+    <div>Media 3</div>
+    <div>Media 4</div>
+    <div>Media 5</div>
+    <div>Media 6</div>
+    <div>Media 7</div>
+    <div>Media 8</div>
+    <div>Media 9</div>
+    <div>Media 10</div>
+    </div>
+</body>
+</html>
