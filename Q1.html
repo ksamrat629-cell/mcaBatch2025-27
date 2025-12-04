@@ -4,27 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(178, 244, 244);
+        }
+        h2{
+            text-align: center;
+            background-color: rgb(209, 172, 244);
+            margin: 0px 0px 20px 0px;
+            padding: 40px 40px 40px 40px;
+            width: 100%;
+            height: 50%;
+            font-size: 300%;
+           
+        }
+        .container{
+            text-align: center;
+            
+            
+        }
+        input[type ="text"],
+        input[type ="email"],
+        input[type ="password"],
+        select{
+            border-radius: 3px;
+            width: 150px;
+            height: 20px;
+            vertical-align: middle;
+        }
+        label{
+            font-size: 150%;
+            font-weight: bold;
+            display: inline-block;
+            width: 180px;
+        }
+        .gender-option{
+            vertical-align: middle;
+            font-size: 120%;
+            display: inline-block;
+        }
+        .gender-options input{
+            margin-left: 10px;
+        }
+        input
+    </style>
 </head>
 <body>
 
     <h2>Registration Form</h2>
-
+<div class="container">
     <form>
 
-        <label>Full Name:</label><br>
+        <label>Full Name:</label>
         <input type="text" name="fullname" required><br><br>
 
-        <label>Email:</label><br>
+        <label>Email:</label>
         <input type="email" name="email" required><br><br>
 
-        <label>Password:</label><br>
+        <label>Password:</label>
         <input type="password" name="password" required><br><br>
 
-        <label>Gender:</label><br>
+        <label>Gender:</label>
+        <div class="gender-option">
         <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female<br><br>
+        <input type="radio" name="gender" value="female"> Female
+        </div>
+        <br><br>
 
-        <label>Country:</label><br>
+        <label>Country:</label>
         <select name="country">
             <option>India</option>
             <option>USA</option>
@@ -35,6 +84,7 @@
         <button type="submit">Register</button>
 
     </form>
+</div>
 
 </body>
 </html>
